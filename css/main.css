@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Karla';
+  src: url(../fonts/Karla/Karla-Regular.ttf) format('truetype'),
+			 url(../fonts/Karla/Karla-Regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf) format('truetype'),
+			 url(../fonts/Montserrat/Montserrat-Bold.woff) format('woff');
+}
+
+
+html {}
+
+header, main, footer, article {
+	display:block;
+	box-sizing: border-box;
+}
+
+body
+{
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 200%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+
+header
+{
+  font-size: 200%;
+  margin: 1em;
+}
+
+main
+{
+  margin: 1em;
+  max-width: 1100px;
+}
+
+article
+{
+  font-family: "Karla";
+  color: #2d2d2d;
+  max-width: 800px;
+  text-align: justify;
+}

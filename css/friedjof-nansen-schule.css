@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header_image{
+	margin-left: -78px;
+	width: 115%;
+	margin-top: -39px;
+}
+main{
+	padding-left: 0px;
+	margin-left: 25%;
+	margin-right: 15%;
+}
+img{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
